@@ -1,47 +1,125 @@
-
 body {
-    width: 960px;
-    margin: auto;
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  padding-top: 40px;
+}
+
+header h1 {
+  font-size: 35px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-left: 15px;
+}
+
+header p {
+  font-size: 10px;
+  margin-left: 15px;
 }
 
 header img {
-    float: left;    
+  float: left;
 }
 
 #title {
-    display: inline-block;
-    clear: both;
+  display: inline-block;
+  clear: both;
 }
 
 #images {
-    float: right;
+  float: right;
+  margin-right: 60px;
+}
+
+main h1 {
+  margin-top: 80px;
+  font-size: 30px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#post {
+  font-size: 10px;
+  opacity: 50%;
+}
+
+main {
+  width: 900px;
+}
+
+main div {
+  float: right;
+  margin-bottom: 20px;
+}
+
+main p {
+  opacity: 80%;
+  margin-top: 20px;
+  text-indent: 20px;
+  letter-spacing: .5px;
+  line-height: 1.5em;
 }
 
 section {
-    background: url("img/list-bg.png");
-    background-size: cover;
-    /* text-align: center; */
+  background: url("img/list-bg.png");
+  background-size: cover;
+  margin: 40px 0px;
 }
+
 section ul {
-    display: inline-block;
-    list-style-type: none;
-    padding: 25px;
-    text-align: left;
+  display: inline-block;
+  list-style-type: none;
+  padding: 25px;
+  text-align: left;
+  margin-left: 30px;
+  vertical-align: top;
+  opacity: 60%;
+  font-family: cursive;
+}
+
+section ul:last-child {
+  margin-left: 125px;
 }
 
 section li {
-    padding: 5px 0px;
-        
+  padding: 5px 0px;
 }
 
-#van {
-    display: inline-block;
+
+#van div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#van h2 {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 #van img {
-    display: inline-block;
+  display: inline-block;
 }
 
-#van h3{
-    display: inline-block;
+#van h3 {
+  float: right;
+  background-color: rgb(221, 126, 109);
+  color: white;
+  padding: 15px 20px;
+  margin-right: 60px;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+#copyright {
+  text-align: center;
+  margin: 60px;
+}
+
+#copyright img {
+  margin-bottom: 20px;
+}
+
+#copyright p {
+  opacity: 70%;
 }
